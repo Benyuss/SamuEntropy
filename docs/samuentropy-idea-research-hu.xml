@@ -562,7 +562,8 @@
                                 <title>Az 5. védés</title>                            
                                 <para>
                                     Az előző pont oktatásban bevezető (kutatásban a potenciális játékélményeket feltáró) példái
-                                    után itt azok következnek, amelyek védhetőek a reguláris képzés UDPROG közösségében.
+                                    után itt azok következnek, amelyek védhetőek a reguláris képzés UDPROG közösségében. A három 
+                                    feladat erősorrendben követi egymást, ezt is érdemes megfontolni a választásnál.                                    
                                 </para>
                                 <orderedlist>                                    
                                     <listitem>
@@ -599,10 +600,24 @@
                                             <indexterm>
                                                 <primary>Brainboard</primary>
                                             </indexterm>
-                                            Készíts egy saját forkot a Brainboard app-ból (az egész ESAMU-ról persze) és 
+                                            Készíts egy saját forkot a <filename class="directory">../cs/Brainboard</filename> app-ból (az egész ESAMU-ról persze) és 
                                             a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
-                                            (UDPROG közösségben 590 pont, a játékélményt írd meg fészes posztban is, 
-                                            a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+                                            Védésként választva kötelező implemntálandó pontok az alábbiak:
+                                            <itemizedlist>                                    
+                                                <listitem>
+                                                    <para>
+                                                        Tudjon mindent, amit a NorbironTable feladott védési feladatként!
+                                                    </para>
+                                                </listitem>
+                                                <listitem>
+                                                    <para>Az aktuális csomópontokat a <guibutton>BOXIN</guibutton>
+                                                        gomb nyomására tegye egy új dobozba, ami
+                                                        jelenjen meg a <guibutton>BUILD</guibutton> alatt is!                                            
+                                                    </para>
+                                                </listitem>
+                                            </itemizedlist>                                               
+                                            (UDPROG közösségben 790 pont, a játékélményt írd meg fészes posztban is, 
+                                            a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).                                            
                                         </para>
                                         <tip>
                                             <title>Alaplap szerkesztő</title> 
@@ -619,7 +634,19 @@
                                             </indexterm>
                                             Készíts egy saját forkot a GretaTheBuilder app-ból (az egész ESAMU-ról persze) és 
                                             a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
-                                            (UDPROG közösségben 690 pont, a játékélményt írd meg fészes posztban is, 
+                                            Védésként választva kötelező implemntálandó pontok az alábbiak:
+                                            <itemizedlist>                                    
+                                                <listitem>
+                                                    <para>
+                                                        Tudjon mindent, amit a Brainboard feladott védési feladatként!
+                                                    </para>
+                                                </listitem>
+                                                <listitem>
+                                                    <para>Ne csak csomópontokat, hanem éleket is kezeljen!                                            
+                                                    </para>
+                                                </listitem>
+                                            </itemizedlist>                                               
+                                            (UDPROG közösségben 990 pont, a játékélményt írd meg fészes posztban is, 
                                             a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
                                         </para>
                                     </listitem>                                
@@ -866,7 +893,10 @@
                             Ezen felül a rendszer használata bizonyos kvóták eléréséig ingyenes, azon felül viszont fizetni kell. 
                             Ez nem automatikus, tehát a rendszer nem fog automatikusan fizetési igényt bejelenteni, mert elértünk vagy átléptünk egy kvótát. 
                         </para>
-                    </listitem>                
+                        <para>
+                          <link xlink:href="https://github.com/ViktorSimko/NorbironTableFB.git">Firebase-t használó gyors prototípus.</link>
+                        </para>
+                    </listitem>
                     <listitem>
                         <para>Altalában a <link xlink:href="https://fonts.google.com/">https://fonts.google.com/</link> fontok 
                             felhasználhatósága és rövid iránymutatás a használathoz. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
